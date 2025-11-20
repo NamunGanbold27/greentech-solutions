@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GreenTech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-wrap">
+        <img src="https://via.placeholder.com/60x60?text=Logo" alt="GreenTech logo" class="logo">
+        <div>
+            <h1 class="company-name">GreenTech Solutions</h1>
+            <p class="tagline">Innovating for a Sustainable Future.</p>
+        </div>
+    </div>
+
+    <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About Us</a></li>
+            <li><a href="#products" class="nav-link">Products</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="home">
+    <section class="primary">
+        <div class="primary-text">
+            <h2>Solar Panels</h2>
+            <p class="short-desc">High-efficiency panels for homes and businesses.</p>
+            <p class="intro" id="introPara">
+                GreenTech Solutions helps communities adopt clean energy. Our mission is to make renewable
+                technology accessible, reliable, and simple.
+            </p>
+            <button id="toggleIntroBtn" class="btn" type="button">Hide Intro</button>
+            <a href="#products" class="btn">Explore Products</a>
+        </div>
+        <div class="primary-image">
+            <img src="https://via.placeholder.com/600x350?text=Solar+Panels" alt="Solar panels">
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Product Highlights</h2>
+
+        <article class="product-card">
+            <img src="https://via.placeholder.com/360x220?text=Solar+Roof+Tiles" alt="Solar roof tiles">
+            <h3>Solar Roof Tiles</h3>
+            <p>Tiles that blend with your roof while generating electricity.</p>
+            <p class="more hidden">Made with tempered glass and high-yield cells; ideal for sunny rooftops.</p>
+            <button class="btn learn-more" type="button">Learn More</button>
+        </article>
+
+        <article class="product-card">
+            <img src="https://via.placeholder.com/360x220?text=Wind+Microturbine" alt="Wind microturbine kit">
+            <h3>Wind Microturbine Kit</h3>
+            <p>Compact wind power for rural or coastal locations.</p>
+            <p class="more hidden">Operates at low wind speeds; great as a solar companion.</p>
+            <button class="btn learn-more" type="button">Learn More</button>
+        </article>
+
+        <article class="product-card">
+            <img src="https://via.placeholder.com/360x220?text=Home+Battery" alt="Home battery storage">
+            <h3>Home Battery Storage</h3>
+            <p>Store extra energy for evenings and outages.</p>
+            <p class="more hidden">Lithium iron phosphate cells; safe, long cycle life, app monitoring.</p>
+            <button class="btn learn-more" type="button">Learn More</button>
+        </article>
+    </section>
+
+    <section id="about" class="simple-section">
+        <h2>About Us</h2>
+        <p>We focus on practical sustainability, long-term reliability, and a smaller footprint.</p>
+    </section>
+
+    <section id="services" class="simple-section">
+        <h2>Services</h2>
+        <ul>
+            <li>Home energy assessments</li>
+            <li>Installation and maintenance</li>
+            <li>Battery storage setup</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="simple-section">
+        <h2>Contact Us</h2>
+        <p>Questions about a product or installation? Reach out and we’ll help you get started.</p>
+
+        <form id="newsletterForm" class="newsletter" novalidate>
+            <label for="newsletterEmail">Join our newsletter:</label>
+            <input type="email" id="newsletterEmail" placeholder="you@example.com" required>
+            <button type="submit" class="btn">Subscribe</button>
+            <p id="newsletterMsg" class="note"></p>
+        </form>
+
+        <a href="mailto:info@greentech.com" class="btn">Email Us</a>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-cols">
+        <div>
+            <h3>Get in touch</h3>
+            <p>Email: <a href="mailto:info@greentech.com">info@greentech.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+            <p>Address: 123 Green Way, Eco City, NY 10001</p>
+        </div>
+
+        <div>
+            <h3>Follow us</h3>
+            <a href="#" aria-label="Facebook">
+                <img src="https://via.placeholder.com/28x28?text=F" alt="Facebook">
+            </a>
+            <a href="#" aria-label="Twitter">
+                <img src="https://via.placeholder.com/28x28?text=X" alt="Twitter">
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <img src="https://via.placeholder.com/28x28?text=In" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+
+    <p class="copyright">© <span id="currentYear"></span> GreenTech Solutions. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
